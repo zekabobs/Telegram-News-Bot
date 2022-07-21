@@ -3,4 +3,4 @@ __pycache__/
 .gitignore
 .idea
 .env
-test.py
+/test.py
