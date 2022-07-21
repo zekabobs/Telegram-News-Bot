@@ -13,7 +13,6 @@ async def send_news(message: Message):
         img = news['img']
         article = news['article']
 
-
         await bot.send_photo(CHANNEL_NEWS_ID, img, caption = article)
         await message.answer('Already send!')
     else:
